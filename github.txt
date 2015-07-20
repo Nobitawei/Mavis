@@ -1,14 +1,7 @@
 ls -ah 	查看隐藏目录
 pwd 	显示当前目录
-
-创建版本库相关：
-	git init 初始化目录使目录变成Git可以管理的仓库
-	git add <file name> <file name> 将文件添加到仓库，可多次使用
-	git commit -m "xxx" 把文件提交到仓库，-m 后输入的是本次提交的说明
-	git status 查看仓库当前的状态
-
-查看版本内容的不同之处：
-	git diff <file name> 查看文件修改的内容
-	git diff：是查看working tree与index file的差别的。
-	git diff --cached：是查看index file与commit的差别的。
-	git diff HEAD：是查看working tree和commit的差别的
+git init 初始化目录使目录变成Git可以管理的仓库
+git add <file name> <file name> 将文件添加到仓库，可多次使用
+git commit -m "xxx" 把文件提交到仓库，-m 后输入的是本次提交的说明
+git status 查看仓库当前的状态
+git diff <file name> 查看文件修改的内容
